@@ -1,6 +1,6 @@
 
 import thunkMiddleware from 'redux-thunk';
-import {createStore, compose, applyMiddleware, combineReducers} from 'redux';
+import {createStore, compose, applyMiddleware} from 'redux';
 import rootReducer from '../reducers';
 
 import {loadState,saveState} from './localStorage.js';
@@ -17,7 +17,6 @@ let persistedState = loadState();
 
 const store = createStore(rootReducer, persistedState , compose(
     applyMiddleware(...middlewares),
-
   ));
 
 

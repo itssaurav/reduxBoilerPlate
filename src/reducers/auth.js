@@ -1,14 +1,45 @@
 import * as type from '../constants';
 
-export function userType(state = null,action)
+const findingFalcone = {
+    planetList:'',
+    vehicleList:'',
+    findFalcone:'',
+    token:''
+ }
+export function findingFalconeReducer(state = findingFalcone,action)
 {
 
-    switch(action.type){
-      case type.PUT_USER_TYPE:
-      return action.payload;
-        default:
-        return state;
+    switch(action.type)
+    {
+      case type.GET_PLANETS:
+      state ={
+          ...state,
+          planetList:action.payload
+      }
+      break;
+
+      case type.GET_VEHICLES:
+          state ={
+              ...state,
+              vehicleList:action.payload
+          }
+      break;
+        case type.FIND_FALCONE:
+            state ={
+                ...state,
+                findFalcone:action.payload
+            }
+            break;
+        case type.GET_TOKEN:
+            state ={
+                ...state,
+                token:action.payload
+            }
+            break;
+      default:
+
     }
+    return state;
 }
 
 

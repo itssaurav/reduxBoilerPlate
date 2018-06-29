@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import {userType} from './auth.js';
+import {findingFalconeReducer} from './auth.js';
 
 
 const appReducer = combineReducers({
-    userType:userType,
+    findingfalcone:findingFalconeReducer,
 });
 
 const rootReducer = (state, action) => {
