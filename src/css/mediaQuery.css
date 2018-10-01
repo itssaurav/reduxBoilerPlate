@@ -1,0 +1,80 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+    .section-wrapper {
+        width: auto;
+        border: 2px solid #cecece;
+        margin:0 ;
+    }
+    .side-wrapper
+    {
+      width: 28%;
+    }
+    .search 
+    {
+        width: 190px;
+    }
+    .search option
+    {
+        padding: 0px 20px 5px 20px;
+        font-size: 14px;
+    }
+    .flight-result>p:first-child
+    {
+        margin-bottom:0px;
+    }
+    .result-wapper ul li:first-child
+    {
+        width:72%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section-wrapper {
+        width: auto;
+        border: 0;
+        margin:0 ;
+    }
+    .side-wrapper {
+        width: auto;
+        border: 0;
+        margin:0 ;
+        display: block;
+
+    }
+    .result-wapper
+    {
+        width: auto;
+    }
+    .flight-result>p:first-child 
+    {
+        margin-bottom: 5px;
+    }
+    .logoDiv>button 
+    {
+        font-size:10px;
+    }
+    .flightDetails p
+    {
+       font-size: 12px;
+    }
+    .result-wapper 
+    {
+        border-top:2px solid #cecece!important;
+    }
+    .result-wapper ul li:first-child 
+    {
+        font-size: 16px;
+        font-weight: 700;
+        display:block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .logoDiv 
+    {
+        vertical-align: bottom;
+    }
+    .result-wapper-heading ul li:nth-child(2) p
+    {
+        margin-bottom: 10px;
+    }
+
+    
+}

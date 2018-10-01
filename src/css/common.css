@@ -1,0 +1,124 @@
+.section-wrapper
+{
+  width: 80%;
+  margin:0 auto;
+  border: 2px solid #cecece;
+
+}
+img 
+{
+  width:100%;
+}
+.borderTop0 
+{
+  border-top:0!important;
+}
+.logoDiv>button
+{
+  width: 100%;
+  padding: 5px;
+}
+.borderLeft0 
+{
+  border-left: 0!important;
+}
+.borderRight0 
+{
+  border-right: 0!important;
+}
+.borderBottom0
+{
+  border-bottom: 0!important;
+}
+p{
+  padding:0;
+  margin:0;
+}
+.padding20
+{
+  padding:20px;
+}
+  input[type="date"]:not(.has-value):before{
+  color:lightgray;
+  content:attr(placeholder);
+}
+input 
+{
+  position:'relative';
+  width: -webkit-fill-available;
+  height: 30px;
+  padding-left: 20px;
+
+}
+input:focus , select:focus
+{
+  outline-color: #9cc1a6;
+}
+.paddingTop0
+{
+  padding-top:0px;
+}
+input[type="date"].full:before {
+  color:black;
+  content:""!important;
+}
+select{
+  background:none;
+  width:100%;
+  padding: 8px 18px;
+}
+ul 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+ul li 
+{
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+ul li span 
+{
+  font-size: 14px;
+}
+ul li:first-child
+{
+  margin-right: 20px;
+}
+button 
+{
+  border:0;
+  background-color: #93bc9ee8;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover 
+{
+  background-color: #4e6e57e8!important;
+  color: #fff;
+  
+}
+button:focus
+{
+  border-style: none;
+  outline:none;
+}
+.marginBottom
+{
+  margin-bottom:20px;
+}
+.marginTop 
+{
+  margin-top: 10px;
+}
+.error 
+{
+  color:red;
+  font-size: 10px;
+  margin-bottom: 10px;
+  
+}
+

@@ -1,41 +1,43 @@
 import * as type from '../constants';
 
-const findingFalcone = {
-    planetList:'',
-    vehicleList:'',
-    findFalcone:'',
+const initialState = {
+    selectedTab:false,
+    citiesList:[],
+    flightDetails:[],
+    flightWay:'',
     token:''
  }
-export function findingFalconeReducer(state = findingFalcone,action)
+export function eventReducer(state = initialState,action)
 {
 
     switch(action.type)
     {
-      case type.GET_PLANETS:
+      case type.CHANGETAB:
       state ={
           ...state,
-          planetList:action.payload
+          selectedTab:action.payload
       }
       break;
 
-      case type.GET_VEHICLES:
+      case type.GET_CITIES:
           state ={
               ...state,
-              vehicleList:action.payload
+              citiesList:action.payload
           }
       break;
-        case type.FIND_FALCONE:
+        case type.GET_FLIGHT_JSON:
             state ={
                 ...state,
-                findFalcone:action.payload
+                flightDetails:action.payload
             }
             break;
-        case type.GET_TOKEN:
+        case type.GETDATEANDPLACE:
             state ={
                 ...state,
-                token:action.payload
+                flightWay:action.payload
             }
-            break;
+            break;    
+       
       default:
 
     }

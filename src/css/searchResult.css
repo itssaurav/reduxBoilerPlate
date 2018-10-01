@@ -1,0 +1,63 @@
+.result-wapper 
+{
+    width: 65.7%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 90vh;
+    border-left: 2px solid #cecece;
+}
+.result-wapper-heading 
+{
+    padding:20px;
+    border-bottom: 2px solid #cecece;
+}
+.result-wapper ul li:first-child
+{
+    width: 75%;
+    font-size:20px;
+    font-weight: 700;
+}
+.flight-result 
+{
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
+.logoDiv 
+{
+    display:inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+.flightDetails 
+{
+    display: inline-block;
+    width: 50%;
+}
+.flight 
+{
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    border: 2px solid #cecece;
+}
+.flight-result>p:first-child
+{
+    margin-bottom: 20px;
+}
+.flightDetails>p:first-child
+{
+   font-size:10px
+}
+.flightDetails>p 
+{
+    font-size:14px;
+    line-height: 20px;
+}
+.flight:last-child 
+{
+    margin-bottom:10px;
+}
+.flightLogo 
+{
+  margin-bottom: 5px;
+}

@@ -1,0 +1,95 @@
+.side-wrapper
+{
+  width: 30%;
+  display: inline-block;
+}
+.side-wrapperButton
+{
+  display:inline;
+}
+.side-wrapperButton button
+{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.input-form 
+{
+   width:100%!important;
+   margin-bottom:10px;
+}
+.input-form .react-datepicker-wrapper , .react-datepicker__input-container
+{
+  width:100%!important;
+}
+.side-wrapperButton 
+{
+  margin-bottom: 10px;
+  margin-right: 5px;
+  
+}
+
+.side-wrapperForm 
+{
+  border: 2px solid #cecece;
+  padding:10px;
+}
+.side-wrapperForm>button 
+{
+    padding: 10px 20px;
+    background-color: #9cc1a6;
+    color: #fff;
+    border-radius: 4px;
+}
+.side-wrapperButton button
+{
+  padding:10px;
+  
+}
+.rangeSlider 
+{
+  padding:15px;
+  border: 2px solid #cecece;
+  margin-top:20px;
+}
+.rangeSlider ul 
+{
+  text-align: center;
+}
+.rangeSlider .rc-slider-track-1 
+{
+  background-color: #9cc1a6;
+}
+.rangeSlider .rc-slider-handle
+{
+  border: solid 2px #9cc1a6;
+}
+.search 
+{
+    position: absolute;
+    z-index: 2;
+    padding:10px 0px 10px 0px;
+    background: #fff;
+    width: 284px;
+    box-shadow: 0px 0px 12px 0px #cecece;
+}
+.search option 
+{
+  padding:10px 20px 10px 20px;
+ 
+  cursor: pointer;
+}
+.search option:hover
+{
+  
+  background: #9cc1a6;;
+  color:#fff;
+}
+.noData 
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: red;
+}
+
